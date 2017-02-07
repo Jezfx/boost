@@ -1,0 +1,16 @@
+# OS Generated Files #
+######################
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Boost #
+######################
+node_modules
+npm-debug.log
+
+# Project Specific #
+######################
