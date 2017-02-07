@@ -8,6 +8,10 @@ A webpack boilerplate to get up and running on projects. It includes the followi
 * animate.css
 * basic custom styling
 
+PostCSS
+* autoprefixer
+* lostgrid
+
 in order to quickly build up a production-ready marketing website.
 
 

@@ -2,6 +2,7 @@ var ProvidePlugin = require('webpack').ProvidePlugin;
 var path = require('path');
 var autoprefixer = require('autoprefixer');
 var lost = require('lost');
+var verticalRhythm = require('postcss-vertical-rhythm');
 
 module.exports = {
     entry: [
@@ -28,7 +29,7 @@ module.exports = {
         }]
     },
     postcss: function() {
-        return [autoprefixer, lost];
+        return [autoprefixer, lost, verticalRhythm];
     },
     plugins: [
         new ProvidePlugin({

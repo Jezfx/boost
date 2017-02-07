@@ -1,5 +1,14 @@
 // @import "../node_modules/animate.css/animate.min.css";
 
+body {
+  font: 16px/2 serif;
+}
+
+p {
+  // margin-bottom: 1vr;
+  // padding-top: .5vr;
+}
+
 @import "settings.global";
 @import "settings.colors";
 
