@@ -1,6 +1,7 @@
 var ProvidePlugin = require('webpack').ProvidePlugin;
 var path = require('path');
 var autoprefixer = require('autoprefixer');
+var lost = require('lost');
 
 module.exports = {
     entry: [
@@ -27,7 +28,7 @@ module.exports = {
         }]
     },
     postcss: function() {
-        return [autoprefixer];
+        return [autoprefixer, lost];
     },
     plugins: [
         new ProvidePlugin({
