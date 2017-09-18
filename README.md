@@ -1,27 +1,31 @@
-#Boost 🚀
+# Boost 🚀
 
-A webpack boilerplate to get up and running on projects. It includes the following libs:
+A webpack boilerplate to get up and running on projects. It includes the following:
 
-* jQuery
-* waypoints
-* jquery.scrollto
-* animate.css
-* basic custom styling
+## Includes
+- Webpack `3`
+- React
+- React hot module replacement
+- Sass compilation 
+- Bootstrap `3`
 
-PostCSS
-* autoprefixer
-* lostgrid
+### Todo
+* Add autoprefixer
+* Add css modules
+* Replace Bootstrap with lostgrid
 
-in order to quickly build up a production-ready marketing website.
+# Set up
+
+In order to quickly build up a production-ready marketing website.
 
 
-###Install dependencies
+### Install dependencies
 
 ```
 npm install
 ```
 
-###Developing locally
+### Developing locally
 
 1. Run
 
@@ -31,7 +35,7 @@ npm install
 
 2. In your browser, navigate to: [http://localhost:8080/](http://localhost:8080/)
 
-###Publish
+### Publish
 
 1. In `webpack.config.js` file, replace `www.example.com` with the real domain name.
 
