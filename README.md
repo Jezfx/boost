@@ -14,7 +14,7 @@ A webpack boilerplate to get up and running on projects. It includes the followi
 * Add css modules
 * Replace Bootstrap with lostgrid
 
-# Set up
+# 💿 Install
 
 In order to quickly build up a production-ready marketing website.
 
