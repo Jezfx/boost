@@ -9,7 +9,6 @@
     "clean": "rimraf dist/*",
     "prod": "npm run clean && webpack -p --env.production"
   },
-  "author": "Petr Tichy",
   "license": "ISC",
   "devDependencies": {
     "accounting": "0.4.1",
