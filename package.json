@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "description": "Webpack project starter.",
   "main": "index.js",
-  "author": "Jez Williams <jez@jezfx.com> (http://jezfx.com)",
   "scripts": {
     "dev": "node_modules/.bin/webpack-dev-server -d --env.development",
     "clean": "rimraf dist/*",
     "prod": "npm run clean && webpack -p --env.production"
   },
+  "author": "Jez Williams | jez@jezfx.com",
   "license": "ISC",
   "devDependencies": {
     "accounting": "0.4.1",
